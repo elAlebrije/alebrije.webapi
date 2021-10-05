@@ -15,6 +15,9 @@
     <NeutralLanguage>en-US</NeutralLanguage>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <AssemblyVersion>$(Version)</AssemblyVersion>
+    <FileVersion>$(Version)</FileVersion>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
@@ -22,6 +25,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Alebrije.Abstractions" Version="1.0.1" />
     <PackageReference Include="App.Metrics.AspNetCore" Version="4.2.0" />
     <PackageReference Include="App.Metrics.AspNetCore.Endpoints" Version="4.2.0" />
     <PackageReference Include="App.Metrics.AspNetCore.Tracking" Version="4.2.0" />

@@ -1,6 +1,6 @@
 ﻿using System.Text;
+using Alebrije.Abstractions.Settings;
 using Alebrije.WebApi.Abstractions;
-using Alebrije.WebApi.Settings;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
