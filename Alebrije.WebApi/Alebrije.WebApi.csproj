@@ -2,7 +2,9 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
-    <Authors>Antonio Franco</Authors>
+    <PackageId>Alebrije.WebApi</PackageId>
+    <Product>Alebrije.WebApi</Product>
+    <Authors>JJ Antonio Franco</Authors>
     <Company>alebrije.dev</Company>
     <Description>Base Implementation for WebApi in C#</Description>
     <Copyright>alebrije.dev</Copyright>
@@ -11,6 +13,8 @@
     <RepositoryType>GitHub</RepositoryType>
     <PackageTags>WebApi, C#, DependencyInjection</PackageTags>
     <NeutralLanguage>en-US</NeutralLanguage>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
   <ItemGroup>
