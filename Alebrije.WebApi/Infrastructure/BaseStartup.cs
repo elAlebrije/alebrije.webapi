@@ -42,8 +42,9 @@ namespace Alebrije.WebApi.Infrastructure
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-                ConfigureSwagger(app);
             }
+
+            ConfigureSwagger(app);
 
             app.UseHttpsRedirection();
             app.UseRouting();
